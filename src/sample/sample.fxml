@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="350.0" prefWidth="350.0" style="-fx-background-color: #131313;"
+            xmlns="http://javafx.com/javafx/8.0.121" fx:controller="sample.Controller">
+    <children>
+        <GridPane layoutX="2.0" layoutY="104.0" prefHeight="240.0" prefWidth="344.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <Button fx:id="button7" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="7" textFill="WHITE">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="button8" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="8" textFill="WHITE"
+                        GridPane.columnIndex="1">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="button9" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="9" textFill="WHITE"
+                        GridPane.columnIndex="2">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="button4" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="4" textFill="WHITE"
+                        GridPane.rowIndex="1">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="button5" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="5" textFill="WHITE"
+                        GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="button6" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="6" textFill="WHITE"
+                        GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="button1" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="1" textFill="WHITE"
+                        GridPane.rowIndex="2">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="button2" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="2" textFill="WHITE"
+                        GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="button3" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="3" textFill="WHITE"
+                        GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="button0" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="0" textFill="WHITE"
+                        GridPane.rowIndex="3">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="buttonPoint" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="." textFill="WHITE"
+                        GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="buttonPercent" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="\%" textFill="WHITE"
+                        GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="buttonDiv" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="÷" textFill="WHITE"
+                        GridPane.columnIndex="3">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="buttonMul" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="×" textFill="WHITE"
+                        GridPane.columnIndex="3" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="buttonSub" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="-" textFill="WHITE"
+                        GridPane.columnIndex="3" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="buttonAdd" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="+" textFill="WHITE"
+                        GridPane.columnIndex="3" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="buttonPow" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="x²" textFill="WHITE"
+                        GridPane.columnIndex="4" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="buttonEqual" mnemonicParsing="false" prefHeight="60.0" prefWidth="115.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="=" textFill="WHITE"
+                        GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="buttonSqrt" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="√" textFill="WHITE"
+                        GridPane.columnIndex="4" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="buttonClear" mnemonicParsing="false" prefHeight="103.0" prefWidth="90.0"
+                        style="-fx-background-color: #101010; -fx-border-color: #333333;" text="C" textFill="WHITE"
+                        GridPane.columnIndex="4">
+                    <font>
+                        <Font name="Arial Black" size="18.0"/>
+                    </font>
+                </Button>
+            </children>
+        </GridPane>
+        <TextField fx:id="fieldResult" alignment="CENTER_RIGHT" editable="false" layoutX="16.0" layoutY="15.0"
+                   prefHeight="51.0" prefWidth="318.0"
+                   style="-fx-background-color: #111111; -fx-border-color: #000000; -fx-text-inner-color: #ffffff;">
+            <font>
+                <Font name="Arial Black" size="20.0"/>
+            </font>
+        </TextField>
+        <TextField fx:id="fieldError" alignment="CENTER_RIGHT" editable="false" layoutX="14.0" layoutY="72.0"
+                   prefHeight="20.0" prefWidth="318.0"
+                   style="-fx-background-color: #131313; -fx-text-inner-color: #ff3300;">
+            <font>
+                <Font name="Arial Black" size="10.0"/>
+            </font>
+        </TextField>
+    </children>
+</AnchorPane>
